@@ -25,7 +25,7 @@ class Veicolo {
         return `${this.marca} ${this.anno} ${this.colore} ${this.porte} ${this.carburante}`
     }
     calcoloEta() {
-        return new Date() - this.anno
+        return new Date(2024) - this.anno
     }
 
 }
